@@ -36,13 +36,13 @@ The **Bouncy Sports System** is a **store entry management simulation** designed
 
 ### 🚀 How to Run  
 1. Clone the repository:  
-   bash
+   ```bash
    git clone https://github.com/0DmytroPoliak0/Bouncy-sport-system.git
-     
+   ```  
 2. Navigate to the project directory and run the `Main` class:  
-   bash
+   ```bash
    cd Bouncy-sport-system
-   
+   ```  
 3. Compile and run the program using a Java IDE or command line.  
 4. Follow on-screen instructions to simulate store operations.  
 
@@ -54,13 +54,14 @@ JUnit tests are implemented for various core components:
 - `BarrierTest`  
 
 Run tests using your preferred IDE or command line with:  
-bash
+```bash
 mvn test
-
+```
 
 ### 📌 Notes  
 - The program **does not use a database**—all data is managed in memory.  
 - Uses **Observer Pattern** to notify barriers when store capacity changes.  
 - Uses **State Pattern** to dynamically change the program’s behavior based on user input.  
+
 
 
